@@ -2,9 +2,7 @@
   "name": "RADKit Workshop",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
 
-  "features": {},
-
-  "postCreateCommand": "pip install uv && uv sync",
+  "postCreateCommand": "pip install uv && uv sync && python -m ipykernel install --user",
 
   "customizations": {
     "vscode": {

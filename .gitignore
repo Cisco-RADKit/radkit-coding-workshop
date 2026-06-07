@@ -1,0 +1,5 @@
+.env
+.venv
+uv.lock
+my-backup.cfg
+.github/skills
