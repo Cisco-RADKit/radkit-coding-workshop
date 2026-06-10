@@ -1,5 +1,5 @@
 .env
 .venv
-uv.lock
-my-backup.cfg
+scripts/my-backup.cfg
+scripts/__pycache__
 .github/skills
