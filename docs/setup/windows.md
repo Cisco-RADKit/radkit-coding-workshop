@@ -43,7 +43,7 @@ git --version
 
 ```powershell
 cd $HOME\Documents
-git clone https://github.com/ponchotitlan/radkit-coding-workshop.git
+git clone https://github.com/Cisco-RADKit/radkit-coding-workshop.git
 cd .\radkit-coding-workshop
 Get-ChildItem
 ```
@@ -52,7 +52,7 @@ Get-ChildItem
 
 ```bat
 cd %USERPROFILE%\Documents
-git clone https://github.com/ponchotitlan/radkit-coding-workshop.git
+git clone https://github.com/Cisco-RADKit/radkit-coding-workshop.git
 cd radkit-coding-workshop
 dir
 ```

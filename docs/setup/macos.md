@@ -57,7 +57,7 @@ cd ~/Desktop
 2. Clone the repo:
 
 ```bash
-git clone https://github.com/ponchotitlan/radkit-coding-workshop.git
+git clone https://github.com/Cisco-RADKit/radkit-coding-workshop.git
 ```
 
 3. Enter the project folder:
