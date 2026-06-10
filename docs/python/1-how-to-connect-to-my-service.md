@@ -169,11 +169,9 @@ with Client.create() as client:
 
 ## 3) Connect Directly (`No Cloud`)
 
-> ⚠️ If you don't have your VPN client installed, skip this part
-
 **Best for:** Air-gapped environments, restricted outbound internet, or private-network-only deployments.
 
-**Why choose this:** The client connects directly to the RADKit server endpoint over LAN/VPN, bypassing Cisco Cloud.
+**Why choose this:** The client connects directly to the RADKit server endpoint over your private network, bypassing Cisco Cloud.
 
 **You will need:**
 - Your **CCO user ID**
@@ -181,15 +179,11 @@ with Client.create() as client:
 - The server **hostname or IP address**
 - The server **RPC port** (default: `8181`)
 
+> ⚠️ We shall skip this exercise for now as it needs a VPN connection - Your script must be able to reach directly your RADKit server to enable the RPC-based connectivity. If you were able to install a VPN client, please let your proctor know, and we will gladly guide you through this script
+
 ---
 
-You need to connect first to your VPN using the Cisco Anyconnect VPN client and the following information:
-
-- `Domain`: Domain that you received via e-mail
-- `Username`: The VPN username you received via e-mail
-- `Password`: The VPN password you received via e-mail
-
-Once connected, execute the following command in the RADKit Client CLI. Replace with your remote user address:
+Once connected to your VPN, execute the following command in the RADKit Client CLI. Replace with your remote user address:
 
 ```bash
 radkit-client script 4-direct-login.py your-remote-user-address 

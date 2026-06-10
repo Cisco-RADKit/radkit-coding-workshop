@@ -31,7 +31,6 @@ By the end of this workshop, you will be able to:
 - 💻 Git, to clone this repository into your computer
 - 🐍 Python 3.12 (required: this repo targets `>=3.12,<3.13`)
 - ☁️ A RADKit service and valid credentials (this will be provided to you via e-mail)
-- 🔌 Cisco Anyconnect VPN (for direct connectivity to your RADKit service. Recommended)
 - 🧪 VS Code with Jupyter extension (recommended).
 
 ## ⚠️ Important notice!
