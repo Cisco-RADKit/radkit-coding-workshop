@@ -11,13 +11,7 @@ One of the main features of the RADKit Client API is the interactivity with your
 
 ---
 
-To get started, open your console terminal, navigate to the directory `scripts/`, and input the following command:
-
-```bash
-radkit-client
-```
-
-This will open the `RADKit Client CLI` in your terminal window at the scripts directory of this repository.
+To get started, open your console terminal and navigate to the directory `scripts/`.
 
 ---
 
