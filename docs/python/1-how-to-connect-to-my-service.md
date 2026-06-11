@@ -9,13 +9,7 @@ There are many different ways to connect to your RADKit service. Depending on yo
 
 ---
 
-To get started, open your console terminal, navigate to the directory `scripts/`, and input the following command:
-
-```bash
-radkit-client
-```
-
-This will open the `RADKit Client CLI` in your terminal window at the scripts directory of this repository.
+To get started, open your console terminal, and navigate to the directory `scripts/`.
 
 ## 1) Connect via Cisco Cloud (`SSO Login`)
 
