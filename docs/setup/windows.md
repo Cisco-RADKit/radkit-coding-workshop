@@ -100,18 +100,18 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 ```
 
 After installation, close the terminal and open a new one.
-Then return to the project folder.
+Then return to the project folder and navigate to `windows/`
 
 ### PowerShell
 
 ```powershell
-cd $HOME\Documents\radkit-coding-workshop
+cd $HOME\Documents\radkit-coding-workshop\windows
 ```
 
 ### Command Prompt
 
 ```bat
-cd %USERPROFILE%\Documents\radkit-coding-workshop
+cd %USERPROFILE%\Documents\radkit-coding-workshop\windows
 ```
 
 ## 6) Create the Local .venv from pyproject.toml and Install Dependencies

@@ -1,0 +1,25 @@
+[project]
+name = "radkit-notebooks-windows"
+version = "0.1.0"
+description = "RADKit Notebooks: A collection of Jupyter notebooks for RADKit users."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "cisco-radkit-client==1.9.6",
+  "cisco-radkit-service==1.9.6",
+  "cisco-radkit-common==1.9.6",
+  "cisco-radkit-ntc==1.9.6",
+  "ipykernel",
+  "pip",
+  "python-dotenv"
+]
+
+[[tool.uv.index]]
+name = "radkit-external"
+url = "https://radkit.cisco.com/pip"
+explicit = true
+
+[tool.uv.sources]
+cisco-radkit-client = { index = "radkit-external" }
+cisco-radkit-service = { index = "radkit-external" }
+cisco-radkit-common = { index = "radkit-external" }
+cisco-radkit-ntc = { index = "radkit-external" }

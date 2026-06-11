@@ -650,6 +650,8 @@ Raw output is human-readable but difficult to process reliably in code. Parsed o
 
 > ⚠️ The radkit_genie package must be installed separately and is currently not available in the Windows and macOS installers. You must use a pip based method to install it
 
+> ⚠️ **If you are a Windows user**, navigate to the `windows/` folder of this repository and follow the steps below. The `uv` environment is different from the other OS types.
+
 This repository includes the file `pyproject.toml` which installs all the RADKit libraries required to run this example.
 
 If you have `uv` installed in your computer, navigate to the root of this repository and issue the following command:
